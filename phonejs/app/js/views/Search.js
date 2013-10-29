@@ -17,7 +17,7 @@ KitchenSink.Search = function (params) {
                 if (loadOptions.refresh) {
                     if (q!='') {
                         var deferred = new $.Deferred();
-                        $.getJSON('/http://m.chestnayacena.ru/searchProduct/index', { q: q }, function(result) {
+                        $.getJSON('http://m.chestnayacena.ru/searchProduct/index', { q: q }, function(result) {
                             var response = [];
                             if (result.data.items.length>0) {
                                 for (i in result.data.items) {
