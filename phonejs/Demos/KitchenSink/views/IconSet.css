@@ -1,0 +1,38 @@
+﻿.dx-theme-ios .iconSet-container
+{
+    background: #333;
+}
+
+.iconSet-item
+{
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 12px 4px 8px;
+    color: white;
+    text-shadow: none;
+    font-size: 12px;
+}
+
+.dx-theme-ios7 .iconSet-item,
+.dx-theme-tizen .iconSet-item {
+    color: black;
+}
+
+.iconSet-imageBox
+{    
+    padding-bottom: 2px;
+}
+
+.dx-theme-ios .iconSet-imageBox span,
+.dx-theme-ios7 .iconSet-imageBox span,
+.dx-theme-android .iconSet-imageBox span,
+.dx-theme-win8 .iconSet-imageBox span,
+.dx-theme-tizen .iconSet-imageBox span
+{
+    width: 28px;
+    height: 28px;
+    background-size: 28px 28px;
+    display: inline-block;
+}

@@ -1,0 +1,28 @@
+<div data-options="dxView : { name: 'Search', title: 'Поиск' }" >
+    <div class="home-view" data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-options="dxContent : { targetPlaceholder: 'content' } " >
+            <div data-bind="dxTextBox: { mode: 'search', placeholder: 'Введите наименование товара', valueUpdateAction: search}"></div>
+            <div data-bind="dxList: { dataSource: dataSource, itemTemplate: 'stateItem' }">
+
+                <div data-options="dxTemplate:{ name:'stateItem' }">
+                    <table style="width: 100%;">
+                        <tr>
+                            <td style="min-width: 100px; text-align: center;"><img style="max-width: 80px; max-height: 80px;" data-bind="attr: { src: url_image }" /></td>
+                            <td style="width: 100%;">
+                                <span data-bind="html: name"></span>
+                                <span style="color: #01D2BC;" data-bind="text: weight_unit_name"></span>
+                                <div style="margin-top: 10px;">
+                                    <span style="color: #01ABAA;" data-bind="text: price_seller_name"></span> &nbsp;
+                                    <span style="color: #ff0000;" data-bind="text: price"></span> &nbsp;
+                                    <span style="color: #cccccc;" data-bind="text: price_date"></span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div id="toastContainer" data-bind="dxToast:{message:'Пожалуйста введите запрос', type:'error', displayTime: 3000 }"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+﻿.popup-content {
+    overflow: hidden;
+}
+
+.dx-fieldset:first-child {
+	margin-top: 5px;
+}

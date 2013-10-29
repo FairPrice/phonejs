@@ -1,0 +1,60 @@
+﻿html, 
+body, 
+#view-port {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.dx-theme-win8 .layout-content {
+    background: #1D1D1D;
+}
+.dx-theme-win8 .dx-toolbar .dx-toolbar-label {
+    font-size: 20pt;
+    padding-top: 5px;
+}
+.dx-theme-win8 .dx-toolbar {
+    height: 45px;
+    opacity: 1;
+}
+.dx-theme-win8 .slideout-layout .layout-header {
+    height: 45px;
+}
+.dx-theme-win8 .slideout-layout .layout-content {
+    top: 45px;
+}
+.dx-theme-win8 .dx-toolbar .dx-toolbar-item.dx-toolbar-button {
+    padding: 0 9px;
+}
+.dx-theme-win8 .dx-toolbar .dx-button.dx-button-back .dx-button-back-arrow {
+    width: 20px;
+    height: 20px;
+}
+.dx-theme-win8 .dx-button .dx-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.dx-theme-tizen .layout-frame {
+    border-left: 1px solid #393D3F;
+    margin-left: -1px;
+}
+
+.dx-viewport.dx-theme-tizen-typography {
+    font-size: 18px;
+}
+
+.dx-viewport.dx-theme-tizen .dx-button .dx-button-content span:only-child.dx-icon { 
+	margin-bottom: 0; 
+}
+.dx-viewport.dx-theme-tizen .dx-button .dx-button-content .dx-icon { 
+	margin-bottom: 0; 
+}
+
+.dx-theme-tizen .dx-dropdownmenu-popup .dx-dropdownmenu-list .dx-list-item:first-child {
+	 border-radius: .3em .3em 0 0;
+}
+.dx-theme-tizen .dx-dropdownmenu-popup .dx-dropdownmenu-list .dx-list-item:last-child {
+	 border-radius: 0 0 .3em .3em;
+}
